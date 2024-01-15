@@ -41,7 +41,7 @@ const teamMembers = [
 // - 3 Creo la variabile di appoggio
 let items = '';
 
-// - 4 Creo un ciclo for per girare all'interno dell'array
+// - 4 Creo un ciclo for of per girare all'interno dell'array
 for (let member of teamMembers) {
 
     // - 5 Creo un ciclo for in per girare all'interno degli oggetti
