@@ -8,4 +8,10 @@
 /* General */
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f1;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
