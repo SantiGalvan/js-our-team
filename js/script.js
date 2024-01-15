@@ -53,15 +53,15 @@ for (let member of teamMembers) {
 
     // - 7 Creo la stringa delle col con le card all'interno
     items += `
-            <div class="col">
-              <div class="card">
-                <img src="img/${member['image']}" class="card-img-top" alt="">
-                <div class="card-body text-center">
-                    <h3 class="card-title">${member['name']}</h3>
-                    <p class="card-text">${member['role']}</p>
-                </div>
-              </div>
-            </div>`;
+    <div class="col">
+        <div class="card">
+            <img src="img/${member['image']}" class="card-img-top" alt="">
+            <div class="card-body text-center">
+                <h3 class="card-title">${member['name']}</h3>
+                <p class="card-text">${member['role']}</p>
+            </div>
+        </div>
+     </div>`;
 }
 
 // - 8 Stampo in pagina 
